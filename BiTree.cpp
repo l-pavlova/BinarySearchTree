@@ -26,7 +26,7 @@ private:
 		{
 			currNode->right=insert(currNode->right, value);
 		}
-		else
+		else if(currNode->data > value)
 		{
 			currNode->left = insert(currNode->left, value);
 		}
