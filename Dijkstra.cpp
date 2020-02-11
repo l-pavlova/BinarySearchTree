@@ -131,17 +131,7 @@ namespace dijkstra
 			return -1;
 		}
 	}
-	vector<int>Kruskal(vector<pair<int, int>>adj[], int V)
-	{
-		/*int ans = 0;
-		priority_queue<Element, vector<Element>, greater<Element>>pq;
-		for (int i = 0; i < V; i++)
-		{
-			pq.push(make_pair(adj[i].);
-		}
-		*/
-		return vector<int>();
-	}
+	
 	int main()
 	{
 		vector<Element> graph[20];
